@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<include layout="@layout/base_title"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/huise">
+    <EditText
+        android:id="@+id/ed_keyword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="85dp"
+        android:background="@color/white"
+        android:textColorHint="@color/huise"
+        android:hint="关键字/专家姓名/医院名称/疾病"/>
+        <TextView
+            android:id="@+id/tv_sure3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colortheme"
+            android:textSize="20dp"
+            android:text="确定"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"/>
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/iv_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+</LinearLayout>

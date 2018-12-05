@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<include layout="@layout/base_title"></include>
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+        android:layout_margin="10dp">
+    <EditText
+        android:id="@+id/ed_suggestions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="请提出您宝贵的意见"
+        android:textColorHint="#AAA"
+        android:gravity="start"
+        android:maxLength="600"
+        android:background="@color/white"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true">
+    <TextView
+        android:id="@+id/tv_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/600"/>
+    </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

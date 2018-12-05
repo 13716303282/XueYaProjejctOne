@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colortheme">#4cbf5c</color>
+    <color name="white">#fff</color>
+
+    <color name="background_color">#4cbf5c</color>
+
+    <color name="huise">#ccc</color>
+    <color name="personal">#AAA</color>
+    <color name="expert">#16DCC7</color>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<include layout="@layout/base_title"></include>
+    <RelativeLayout
+    android:id="@+id/re_account"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:text="账户"
+        android:textColor="#AAA"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:src="@mipmap/arrow_right" />
+
+</RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/re_Clear"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFF"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="清理缓存"
+            android:textColor="#AAA"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:src="@mipmap/arrow_right" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/re_about"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFF"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="关于血压卫士"
+            android:textColor="#AAA"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:src="@mipmap/arrow_right" />
+
+    </RelativeLayout>
+</LinearLayout>

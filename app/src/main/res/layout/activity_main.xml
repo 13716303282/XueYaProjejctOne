@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/doctor"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/doctor_head_normal"
+            android:text="医生在线"
+            android:textColor="@color/personal"
+            android:textSize="16dp"
+            android:drawablePadding="7dp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/blood"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/blood_manger_normal"
+            android:text="血压管理"
+            android:textColor="@color/personal"
+            android:textSize="16dp"
+            android:drawablePadding="7dp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/personal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/persional_normal"
+            android:text="个人中心"
+            android:textColor="@color/personal"
+            android:textSize="16dp"
+            android:drawablePadding="7dp"
+            android:gravity="center"/>
+    </LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewapge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"></android.support.v4.view.ViewPager>
+
+</RelativeLayout>

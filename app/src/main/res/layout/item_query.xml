@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/iv_img"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="15dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"/>
+    <LinearLayout
+        android:id="@+id/Lin1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@id/iv_img"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="李为民"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:layout_marginLeft="15dp" />
+        <TextView
+            android:id="@+id/tv_hospital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="医院"
+            android:textColor="#989191"
+            android:textSize="12dp"
+            android:layout_marginLeft="15dp" />
+    </LinearLayout>
+
+   <LinearLayout
+       android:id="@+id/lin2"
+       android:layout_below="@id/Lin1"
+       android:layout_width="match_parent"
+       android:layout_height="25dp"
+       android:layout_toRightOf="@id/iv_img"
+       android:layout_marginLeft="15dp"
+       android:orientation="horizontal">
+       <TextView
+           android:id="@+id/tv_title"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="主任医师"
+           android:textColor="#989191"
+           android:textSize="13dp"
+           android:layout_marginLeft="15dp" />
+       <TextView
+           android:id="@+id/tv_department"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="心血管内科"
+           android:textColor="#989191"
+           android:textSize="12dp"
+           android:layout_marginLeft="15dp" />
+       <TextView
+           android:id="@+id/tv_grade"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="教授"
+           android:textColor="#989191"
+           android:textSize="12dp"
+           android:layout_marginLeft="15dp" />
+   </LinearLayout>
+    <ImageView
+        android:id="@+id/iv_is_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/is_plus_normal"
+        android:layout_toRightOf="@id/iv_img"
+        android:layout_below="@id/lin2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/tv_goodat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_img"
+        android:layout_marginTop="5dp"
+        android:textSize="16dp"
+        android:textColor="#000"
+        android:padding="5dp"
+        android:text="高血压冠心病"/>
+    <TextView
+        android:layout_below="@id/tv_goodat"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_alignParentBottom="true"
+        android:background="#8a7979"/>
+
+</RelativeLayout>
